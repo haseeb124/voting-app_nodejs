@@ -1,0 +1,38 @@
+
+voting application
+
+routes
+models
+
+1. user sign in / sign up
+2. see the list of candidate
+3. vote one of the candidate
+4. shows list of candidate and sort by their live vote count
+5. user data must contain their one unique cnic 
+6: one admin who cant vote
+7. change password
+8. login using cnic and password
+
+
+Routes:
+
+1. user authentication
+/signup post method
+/login get method
+
+2. voting:
+/candidates get method
+/vote/:candidateId post method
+
+3. vote counts
+/vote/counts get method
+
+4. profile
+/profile get method
+/profile/password put method
+
+5. admin candidate management
+/candidate post method
+/candidate/:candidateId put
+/candidate/:candidateId delete 
+
